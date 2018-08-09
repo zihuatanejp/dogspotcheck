@@ -1,0 +1,3 @@
+rootProject.name = 'dogspotcheck'
+
+include ':app'
