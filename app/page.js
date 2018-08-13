@@ -182,6 +182,7 @@ export default class Page extends Component {
 
   onPress(){}
 
+  //页面初始加载完
 	componentDidMount() {
     let allwords = this.props.words
 		this.setState({
@@ -370,7 +371,8 @@ const styles = StyleSheet.create({
     paddingHorizontal:15,
     marginHorizontal:30,
     borderRadius:30,
-    marginBottom:35
+    marginBottom:35,
+    borderStyle:'dashed'
   },
   wordmean:{
     fontSize:14,
